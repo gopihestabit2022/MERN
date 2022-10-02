@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import {Netflix,test,check} from './Netflix';
 
 const Covid = () => {
 
@@ -59,8 +60,12 @@ const Covid = () => {
                     </div>
 
                 </div>
+                <Netflix />
+                <p>{test()}</p>
+                {check}
             </div>
         </div>
+        
         </>
     );
 }
